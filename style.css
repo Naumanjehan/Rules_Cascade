@@ -1,22 +1,39 @@
 /* universal selector */
-*
+/* *
 {
     color: brown;
-}
+} */
 
 /* last rule */
-p
+/* p
 {
     color: rgb(120, 158, 228);
-}
-p
+} */
+/* p
 {
-    color: blue;
-}
+    color: red;
+} */
+
 
 /* specificity */
-div>p
+/* div>p
 {
 background-color: yellow;
 color: black;
+} */
+
+
+/* inheretance */
+body
+{
+ border: 2px solid red;
+ color: lavender;
+ padding: 20px;
 }
+.fruite
+{
+    border: inherit;
+    color: blue;
+    padding: inherit;
+}
+
