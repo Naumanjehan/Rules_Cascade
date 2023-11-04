@@ -1,0 +1,22 @@
+/* universal selector */
+*
+{
+    color: brown;
+}
+
+/* last rule */
+p
+{
+    color: rgb(120, 158, 228);
+}
+p
+{
+    color: blue;
+}
+
+/* specificity */
+div>p
+{
+background-color: yellow;
+color: black;
+}
